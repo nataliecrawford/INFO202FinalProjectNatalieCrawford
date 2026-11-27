@@ -25,3 +25,9 @@ A faceted image collection of travel photos, with hand-labeled and classifier-pr
 | `facetlabeling/` | Facet definitions (PDF), label CSVs, and the HTML label views |
 | `classification/` | Classifier notebook (`.ipynb` plus a PDF export) and predicted labels for all data |
 | `Hand_Classified_Sample.csv` | The hand-classified training sample |
+
+## Classifier Notebook
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nataliecrawford/INFO202FinalProjectNatalieCrawford/blob/main/classification/final_project_classifier_nataliecrawford.ipynb)
+
+The notebook is too large for GitHub to preview, so open it in Colab using the button above. A [PDF version](classification/final_project_classifier_nataliecrawford.ipynb%20-%20Colab.pdf) is also available.
