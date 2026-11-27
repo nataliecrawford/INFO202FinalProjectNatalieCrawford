@@ -51,8 +51,7 @@ The file is about 32 MB, so it may take a few seconds to load.
 
 - **Notebook:** `classification/final_project_classifier_nataliecrawford.ipynb`. It's too large for GitHub to preview, so use the Colab button above or the [PDF version](classification/final_project_classifier_nataliecrawford.ipynb%20-%20Colab.pdf).
 - **Inputs** (in `classification/`):
-  - `Hand_Classified_Sample.csv`: hand-labeled training data (ground truth)
-  - `imagecaptions.tsv`: captions for every image in the collection
+  - `notebook_inputs` Contains the .zip file uploaded to run the notebook in colab
 - **Predicted labels (output):**
   - `classification/predicted_labels_alldata_nataliecrawford.csv`
   - `facetlabeling/PredictedLabels_NatalieCrawford.csv`
@@ -65,8 +64,6 @@ The file is about 32 MB, so it may take a few seconds to load.
 2. In Colab, open the **Files** panel (folder icon on the left) and upload the input files listed above.
 3. Choose **Runtime → Run all**.
 4. The notebook writes the predicted labels to a CSV, which you can download from the Files panel.
-
-- **TODO:** briefly describe the method (model or features used) and how its output compares to the hand-built facets.
 
 ## 5. Retrieval System — TODO
 
