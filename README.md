@@ -15,7 +15,7 @@ A faceted image collection of travel photos, with a hand-built facet taxonomy, a
 | Data (images + captions) | `data/` | ✅ |
 | Hand-classified sample | `Hand_Classified_Sample.csv`, `facetlabeling/HandLabeled_NatalieCrawford.csv` | ✅ |
 | Faceted browser | `facetbrowser_nataliecrawford.html` | ✅ |
-| Classification code + output | `classification/` | ✅ |
+| Classification code, inputs + output | `classification/` | ✅ |
 | Retrieval system, query set, relevance judgments | `retrieval/` | **TODO** |
 | Written report | `report/` | **TODO** |
 
@@ -50,6 +50,9 @@ The file is about 32 MB, so it may take a few seconds to load.
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nataliecrawford/INFO202FinalProjectNatalieCrawford/blob/main/classification/final_project_classifier_nataliecrawford.ipynb)
 
 - **Notebook:** `classification/final_project_classifier_nataliecrawford.ipynb`. It's too large for GitHub to preview, so use the Colab button above or the [PDF version](classification/final_project_classifier_nataliecrawford.ipynb%20-%20Colab.pdf).
+- **Inputs** (in `classification/`):
+  - `Hand_Classified_Sample.csv`: hand-labeled training data (ground truth)
+  - `imagecaptions.tsv`: captions for every image in the collection
 - **Predicted labels (output):**
   - `classification/predicted_labels_alldata_nataliecrawford.csv`
   - `facetlabeling/PredictedLabels_NatalieCrawford.csv`
@@ -57,8 +60,12 @@ The file is about 32 MB, so it may take a few seconds to load.
   - [Classifier Predicted Labels](https://nataliecrawford.github.io/INFO202FinalProjectNatalieCrawford/facetlabeling/LabelingFilesHtmls/predicted_labels.html)
   - [Full Collection Labeled](https://nataliecrawford.github.io/INFO202FinalProjectNatalieCrawford/facetlabeling/LabelingFilesHtmls/full_info.html)
 
-**How to run it:** open the notebook in Colab and run all cells.
-- **TODO:** list any input files the notebook expects and where to put them (for example, upload `Hand_Classified_Sample.csv` and `data/imagecaptions.tsv` to the Colab session).
+**How to run it:**
+1. Click **Open in Colab** above.
+2. In Colab, open the **Files** panel (folder icon on the left) and upload the input files listed above.
+3. Choose **Runtime → Run all**.
+4. The notebook writes the predicted labels to a CSV, which you can download from the Files panel.
+
 - **TODO:** briefly describe the method (model or features used) and how its output compares to the hand-built facets.
 
 ## 5. Retrieval System — TODO
